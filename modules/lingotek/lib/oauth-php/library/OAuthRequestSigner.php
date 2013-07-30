@@ -33,10 +33,10 @@
 
 
 require_once dirname(__FILE__) . '/OAuthStore.php';
-require_once dirname(__FILE__) . '/OAuthRequest.php';
+require_once dirname(__FILE__) . '/LingotekOAuthRequest.php';
 
 
-class OAuthRequestSigner extends OAuthRequest
+class LingotekOAuthRequestSigner extends LingotekOAuthRequest
 {
 	protected $request;
 	protected $store;

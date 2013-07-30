@@ -34,7 +34,7 @@ require_once dirname(__FILE__) . '/OAuthRequestSigner.php';
 require_once dirname(__FILE__) . '/body/OAuthBodyContentDisposition.php';
 
 
-class OAuthRequester extends OAuthRequestSigner
+class OAuthRequester extends LingotekOAuthRequestSigner
 {
 	protected $files;
 
