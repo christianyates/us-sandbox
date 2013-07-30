@@ -34,7 +34,7 @@
 require_once 'OAuthRequestVerifier.php';
 require_once 'OAuthSession.php';
 
-class OAuthServer extends LingotekOAuthRequestVerifier
+class OAuthServer extends OAuthRequestVerifier
 {
 	protected $session;
 	

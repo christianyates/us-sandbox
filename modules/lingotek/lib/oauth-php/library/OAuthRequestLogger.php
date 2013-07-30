@@ -46,7 +46,7 @@ class OAuthRequestLogger
 	/**
 	 * Start any logging, checks the system configuration if logging is needed.
 	 * 
-	 * @param LingotekOAuthRequest  $request_object
+	 * @param OAuthRequest  $request_object
 	 */
 	static function start ( $request_object = null )
 	{
